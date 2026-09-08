@@ -135,6 +135,6 @@ export const CERTIFICATIONS = [
     id: "dp-900",
     title: "Microsoft Certified: Azure Data Fundamentals (DP-900)",
     issuer: "Microsoft",
-    date: "2024",
+    date: "",
   }
 ];

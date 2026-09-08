@@ -65,9 +65,10 @@ export default function Hero() {
       }}
     >
       <div className="section-container" style={{ paddingTop: "6rem" }}>
-        
-        {/* Terminal Badge */}
-        <div
+        <div style={{ display: "flex", flexWrap: "wrap-reverse", alignItems: "center", justifyContent: "space-between", gap: "3rem" }}>
+          <div style={{ flex: "1 1 400px" }}>
+            {/* Terminal Badge */}
+            <div
           className="hero-element"
           style={{
             display: "inline-flex",
@@ -160,6 +161,23 @@ export default function Hero() {
             >
               <FaLinkedin size={18} />
             </a>
+          </div>
+        </div>
+          </div>
+          
+          <div className="hero-element" style={{ flexShrink: 0, display: "flex", justifyContent: "center", width: "100%", maxWidth: "320px", margin: "0 auto" }}>
+            <img 
+              src="/mahmoud.jpeg" 
+              alt="Mahmoud Gamal" 
+              style={{
+                width: "100%",
+                aspectRatio: "1/1",
+                borderRadius: "50%",
+                objectFit: "cover",
+                border: "4px solid var(--color-surface)",
+                boxShadow: "0 0 30px var(--color-accent-glow)"
+              }} 
+            />
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bahaa Mohamed Abdelmoty — Full-Stack & App Developer",
+  title: "Mahmoud Gamal - Data Engineering",
   description:
     "Senior MIS student building high-performance web applications. Experience delivering cross-platform solutions for clients across the GCC region. Explore my portfolio of full-stack projects.",
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bahaa Mohamed Abdelmoty — Full-Stack & App Developer",
     description:
-      "Building elegant interfaces & intelligent data systems. Explore my portfolio.",
+      "Building realiable pipelines & intelligent data systems. Explore my portfolio.",
     type: "website",
   },
 };
