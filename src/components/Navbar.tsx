@@ -84,6 +84,7 @@ export default function Navbar() {
               href={PERSONAL_INFO.resumeUrl}
               target="_blank"
               rel="noreferrer"
+              download
               className="btn-outline ml-2"
               style={{ padding: "0.5rem 1rem", fontSize: "0.85rem" }}
             >
@@ -122,6 +123,19 @@ export default function Navbar() {
                 {item.label}
               </motion.a>
             ))}
+            <motion.a
+              href={PERSONAL_INFO.resumeUrl}
+              target="_blank"
+              rel="noreferrer"
+              download
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ delay: NAVIGATION.length * 0.08 }}
+              className="btn-primary mt-4"
+            >
+              Resume
+            </motion.a>
           </motion.div>
         )}
       </AnimatePresence>
