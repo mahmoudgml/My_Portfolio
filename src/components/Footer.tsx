@@ -36,7 +36,7 @@ export default function Footer() {
             <span style={{ color: "var(--color-text-secondary)" }}>
               {PERSONAL_INFO.name}
             </span>
-            . Built with Next.js.
+            
           </div>
 
           {/* Back to Top */}

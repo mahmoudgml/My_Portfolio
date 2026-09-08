@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   openGraph: {
-    title: "Bahaa Mohamed Abdelmoty — Full-Stack & App Developer",
+    title: "Mahmoud Gamal - Data Engineering",
     description:
       "Building realiable pipelines & intelligent data systems. Explore my portfolio.",
     type: "website",
